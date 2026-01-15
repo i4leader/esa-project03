@@ -1,0 +1,76 @@
+# CodeReview Pro - 环境变量配置
+
+# ============================================
+# AI API 配置（选择其中一个）
+# ============================================
+
+# 选项 1: Claude API (Anthropic)
+# 获取地址: https://console.anthropic.com/
+# VITE_CLAUDE_API_KEY=sk-ant-api03-your-key-here
+# VITE_CLAUDE_API_URL=https://api.anthropic.com/v1/messages
+# VITE_CLAUDE_MODEL=claude-3-sonnet-20240229
+
+# 选项 2: 阿里云通义千问 API
+# 获取地址: https://dashscope.console.aliyun.com/
+# VITE_ALIYUN_API_KEY=sk-your-aliyun-key-here
+# VITE_ALIYUN_API_URL=https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation
+# VITE_ALIYUN_MODEL=qwen-turbo
+
+# ============================================
+# ESA Functions 配置（生产环境）
+# ============================================
+
+# ESA Function 端点
+VITE_API_ENDPOINT=/api/review
+# 生产环境示例:
+# VITE_API_ENDPOINT=https://your-function.esa.aliyuncs.com/api/review
+
+# ============================================
+# 功能开关
+# ============================================
+
+# 是否使用 Mock 数据（开发环境推荐设为 true）
+VITE_USE_MOCK_DATA=true
+
+# 是否启用缓存
+VITE_CACHE_ENABLED=true
+
+# 缓存过期时间（秒，默认 24 小时）
+VITE_CACHE_TTL=86400
+
+# 是否启用速率限制
+VITE_RATE_LIMIT_ENABLED=true
+
+# 速率限制：每分钟最大请求数
+VITE_RATE_LIMIT_MAX_REQUESTS=100
+
+# ============================================
+# 开发环境配置
+# ============================================
+
+# 开发调试模式
+# VITE_DEBUG=true
+
+# API 超时时间（毫秒）
+VITE_API_TIMEOUT=30000
+
+# ============================================
+# 应用配置
+# ============================================
+
+# 应用名称
+VITE_APP_NAME=CodeReview Pro
+
+# 应用版本
+VITE_APP_VERSION=1.0.0
+
+# 应用环境 (development | production)
+VITE_APP_ENV=development
+
+# ============================================
+# 使用说明
+# ============================================
+# 1. 复制此文件为 .env
+# 2. 取消注释并填写您需要的配置
+# 3. 重启开发服务器: npm run dev
+# 4. 详细配置说明请参考 BACKEND_SETUP.md

@@ -1,0 +1,105 @@
+{
+  "app": {
+    "title": "代码审查专家",
+    "subtitle": "AI 驱动的代码审查助手"
+  },
+  "header": {
+    "toggleTheme": "切换主题"
+  },
+  "upload": {
+    "title": "上传代码文件",
+    "clickToUpload": "点击上传",
+    "dragAndDrop": "或拖放文件",
+    "supportedFormats": "支持格式：.js, .ts, .py, .java, .go, .cpp, .cs, .php, .rb, .rs（最大 50KB）",
+    "fileLoaded": "文件已加载：{filename}（{language}）",
+    "error": {
+      "sizeExceeded": "文件大小（{size}KB）超过 50KB 限制。",
+      "unsupportedType": "不支持的文件类型：.{extension}",
+      "readFailed": "读取文件失败，请重试。"
+    }
+  },
+  "editor": {
+    "title": "代码编辑器",
+    "language": "语言：",
+    "sizeWarning": "⚠️ 代码大小超过 50KB 限制。请在提交审查前减小代码大小。",
+    "reviewButton": "审查代码",
+    "analyzing": "分析中..."
+  },
+  "issues": {
+    "title": "代码审查结果",
+    "count": "（{count}）",
+    "filters": {
+      "all": "全部",
+      "security": "安全",
+      "performance": "性能",
+      "style": "风格"
+    },
+    "export": {
+      "json": "JSON",
+      "markdown": "MD",
+      "pdf": "PDF"
+    },
+    "summary": {
+      "critical": "严重",
+      "high": "高",
+      "medium": "中",
+      "low": "低"
+    },
+    "empty": {
+      "noIssues": "未发现问题。您的代码看起来很棒！",
+      "noMatch": "没有问题匹配当前筛选条件。"
+    },
+    "card": {
+      "lines": "第 {start}-{end} 行",
+      "suggestedFix": "💡 建议修复：",
+      "example": "示例："
+    }
+  },
+  "history": {
+    "title": "审查历史",
+    "clearAll": "清空全部",
+    "empty": {
+      "title": "暂无审查历史",
+      "subtitle": "您的代码审查记录将显示在这里"
+    },
+    "justNow": "刚刚",
+    "minutesAgo": "{count} 分钟前",
+    "hoursAgo": "{count} 小时前",
+    "daysAgo": "{count} 天前",
+    "confirmClear": "确定要清空所有审查历史吗？此操作无法撤销。"
+  },
+  "errors": {
+    "codeEmpty": "请输入要审查的代码",
+    "codeTooLarge": "代码超过 50KB 大小限制",
+    "analysisFailed": "分析失败，请重试。",
+    "exportFailed": "导出失败，请重试。",
+    "noAnalysis": "没有可导出的分析结果",
+    "apiKeyRequired": "请先配置阿里云 API Key"
+  },
+  "apiKey": {
+    "title": "阿里云 API Key 配置",
+    "label": "阿里云 DashScope API Key",
+    "placeholder": "输入您的 API Key（例如：sk-xxx）",
+    "save": "保存",
+    "clear": "清除",
+    "setup": "配置 API",
+    "configured": "API Key 已配置",
+    "notConfigured": "需要配置 API Key",
+    "howToGet": "如何获取 API Key：",
+    "step1": "访问阿里云 DashScope 控制台",
+    "step2": "开通通义千问服务",
+    "step3": "创建并复制您的 API Key",
+    "visitConsole": "访问控制台"
+  },
+  "severity": {
+    "critical": "严重",
+    "high": "高",
+    "medium": "中",
+    "low": "低"
+  },
+  "issueTypes": {
+    "security": "安全",
+    "performance": "性能",
+    "style": "风格"
+  }
+}

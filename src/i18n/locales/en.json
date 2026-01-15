@@ -1,0 +1,105 @@
+{
+  "app": {
+    "title": "CodeReview Pro",
+    "subtitle": "AI-Powered Code Review Assistant"
+  },
+  "header": {
+    "toggleTheme": "Toggle theme"
+  },
+  "upload": {
+    "title": "Upload Code File",
+    "clickToUpload": "Click to upload",
+    "dragAndDrop": "or drag and drop",
+    "supportedFormats": "Supported: .js, .ts, .py, .java, .go, .cpp, .cs, .php, .rb, .rs (Max 50KB)",
+    "fileLoaded": "File loaded: {filename} ({language})",
+    "error": {
+      "sizeExceeded": "File size ({size}KB) exceeds the 50KB limit.",
+      "unsupportedType": "Unsupported file type: .{extension}",
+      "readFailed": "Failed to read file. Please try again."
+    }
+  },
+  "editor": {
+    "title": "Code Editor",
+    "language": "Language:",
+    "sizeWarning": "⚠️ Code size exceeds 50KB limit. Please reduce the code size before submitting for review.",
+    "reviewButton": "Review Code",
+    "analyzing": "Analyzing..."
+  },
+  "issues": {
+    "title": "Code Review Results",
+    "count": "({count})",
+    "filters": {
+      "all": "All",
+      "security": "Security",
+      "performance": "Performance",
+      "style": "Style"
+    },
+    "export": {
+      "json": "JSON",
+      "markdown": "MD",
+      "pdf": "PDF"
+    },
+    "summary": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "empty": {
+      "noIssues": "No issues found. Your code looks great!",
+      "noMatch": "No issues match the current filter."
+    },
+    "card": {
+      "lines": "Lines {start}-{end}",
+      "suggestedFix": "💡 Suggested Fix:",
+      "example": "Example:"
+    }
+  },
+  "history": {
+    "title": "Review History",
+    "clearAll": "Clear All",
+    "empty": {
+      "title": "No review history yet",
+      "subtitle": "Your code reviews will appear here"
+    },
+    "justNow": "Just now",
+    "minutesAgo": "{count} minute ago | {count} minutes ago",
+    "hoursAgo": "{count} hour ago | {count} hours ago",
+    "daysAgo": "{count} day ago | {count} days ago",
+    "confirmClear": "Are you sure you want to clear all review history? This action cannot be undone."
+  },
+  "errors": {
+    "codeEmpty": "Please enter some code to review",
+    "codeTooLarge": "Code exceeds 50KB size limit",
+    "analysisFailed": "Analysis failed. Please try again.",
+    "exportFailed": "Export failed. Please try again.",
+    "noAnalysis": "No analysis available to export",
+    "apiKeyRequired": "Please configure your Aliyun API Key first"
+  },
+  "apiKey": {
+    "title": "Aliyun API Key Configuration",
+    "label": "Aliyun DashScope API Key",
+    "placeholder": "Enter your API Key (e.g., sk-xxx)",
+    "save": "Save",
+    "clear": "Clear",
+    "setup": "Setup API",
+    "configured": "API Key Configured",
+    "notConfigured": "API Key Required",
+    "howToGet": "How to get API Key:",
+    "step1": "Visit Aliyun DashScope Console",
+    "step2": "Enable Qwen (通义千问) service",
+    "step3": "Create and copy your API Key",
+    "visitConsole": "Visit Console"
+  },
+  "severity": {
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "issueTypes": {
+    "security": "Security",
+    "performance": "Performance",
+    "style": "Style"
+  }
+}
